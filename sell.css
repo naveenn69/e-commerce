@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  background-color: #de9090;
+  opacity: 1;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+nav ul li {
+  width: 150px;
+  margin: 15px;
+  padding: 15px;
+}
+
+nav ul img {
+  float: left;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active,
+nav ul li:hover {
+  background: #c75e55;
+  border-radius: 5px;
+  color: black;
+}
+
+nav .fa {
+  margin-right: 8px;
+}
+
+.submenu {
+  display: none;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background-color: #de9090;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+nav ul li:hover .submenu ul {
+  display: block;
+  margin: 10px;
+}
+
+nav ul li:hover .submenu ul li {
+  width: 100px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+nav ul li:hover .submenu ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover .submenu ul li a:hover {
+  color: #b93e33;
+}
+
+.img1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.heading h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #512f2f;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 50px;
+  margin-top: 396px;
+  margin-bottom: 0;
+}
+
+.footer strong {
+  margin-top: 15px;
+  color: #512f2f;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer p {
+  color: #512f2f;
+  float: right;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=index.css.map */
+input {
+  background-color: #eee;
+  border: none;
+  padding: 15px 13px;
+  width: 100%;
+  margin: 8px 0 15px 15px;
+}
+
+form {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 80px 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 90vh;
+}
+
+.submit input {
+  background-color: #41B3A3;
+  border-radius: 15px;
+  color: #eee;
+  text-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+button {
+  margin: 15px 5px;
+  border-radius: 15px;
+  border: 1px solid #41B3A3;
+  background-color: #85DCBA;
+  color: #FFFFFF;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=login.css.map */
+.inputfile {
+  width: 0.1px;
+  height: 15px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  padding-top: 20px;
+}
+
+.inputfile+label {
+  font-size: 1.25em;
+  font-weight: 700;
+  height: 20px;
+  color: #c75e55;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.inputfile+label * {
+  pointer-events: none;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+  font-size: 20px;
+}
+
+.inputfile+label {
+  cursor: pointer;
+  /* "hand" cursor */
+}
+
+.inputfile:focus+label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+/*# sourceMappingURL=sell.css.map */

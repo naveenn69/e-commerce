@@ -1,0 +1,180 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  background-color: #de9090;
+  opacity: 1;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+nav ul li {
+  width: 150px;
+  margin: 15px;
+  padding: 15px;
+}
+
+nav ul img {
+  float: left;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active,
+nav ul li:hover {
+  background: #c75e55;
+  border-radius: 5px;
+  color: black;
+}
+
+nav .fa {
+  margin-right: 8px;
+}
+
+.submenu {
+  display: none;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background-color: #de9090;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+nav ul li:hover .submenu ul {
+  display: block;
+  margin: 10px;
+}
+
+nav ul li:hover .submenu ul li {
+  width: 100px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+nav ul li:hover .submenu ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover .submenu ul li a:hover {
+  color: #b93e33;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 15px 13px;
+  width: 100%;
+  margin: 0px 10px 20px 5px;
+}
+
+form {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 100px 250px;
+  height: 100%;
+  text-align: center;
+}
+
+.body {
+  /* background: #41B3A3; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height:90h;
+  margin: 20px 0px 50px;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+button {
+  margin: 15px 5px;
+  border-radius: 15px;
+  border: 1px solid #41B3A3;
+  background-color: #85DCBA;
+  color: #FFFFFF;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.submit input {
+  background-color: #de9090;
+  border-radius: 15px;
+  color: #eee;
+  text-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=register.css.map */
